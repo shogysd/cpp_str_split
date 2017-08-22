@@ -1,2 +1,2 @@
-# cpp_str_split
-c++ str_split
+# compile
+$ g++ -std=c++11 main.cpp str_split.cpp
