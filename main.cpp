@@ -2,11 +2,10 @@
 
 using namespace std;
 
-void str_split( string, string , vector<string> & );
-void str_split( string, string , int , vector<string> & );
+void str_split(string, string, vector<string>&);
+void str_split(string, string, int, vector<string>&);
 
-int main(){
-
+int main() {
   int i;
   vector<string> hoge;
 
@@ -15,7 +14,7 @@ int main(){
   hoge.clear();
   str_split("qw!er!!ty!!!ui!!!!op", "!!", hoge);
 
-  for(i=0; i<hoge.size(); i+=1){
+  for (i = 0; i < hoge.size(); i += 1) {
     cout << hoge[i] << endl;
   }
 
@@ -24,7 +23,7 @@ int main(){
   hoge.clear();
   str_split("qw!er!!ty!!!ui!!!!op", "!!", 2, hoge);
 
-  for(i=0; i<hoge.size(); i+=1){
+  for (i = 0; i < hoge.size(); i += 1) {
     cout << hoge[i] << endl;
   }
 
